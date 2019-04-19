@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainbow</title>
+    <style></style>
+  </head>
+  <body>
+    <button onclick="myFunction()" id = "bu">Click To change background color</button>
+  </body>
+  <script type = "text/javascript">
+  function myFunction(){
+    var x1 = 0;
+    x1 += 1;
+    if(x1 == 0){
+    document.body.style.backgroundColor = "red";
+    }
+    if(x1 == 1){
+    document.body.style.backgroundColor = "orange";
+    }
+    if(x1 == 2){
+    document.body.style.backgroundColor = "yellow";
+    }
+    if(x1 == 3){
+    document.body.style.backgroundColor = "green";
+    }
+    if(x1 == 4){
+    document.body.style.backgroundColor = "blue";
+    }
+    if(x1 == 5){
+    document.body.style.backgroundColor = "purple";
+    }
+    if(x1 > 5){
+    x1 = 0;
+    }
+    }
+  </script>
+</html>
